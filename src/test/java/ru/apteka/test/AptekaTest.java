@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class AptekaTest extends WebTest{
+public class AptekaTest {
     MainPage mainPage = new MainPage();
     CityPopup cityPopup = new CityPopup();
     FindPage findPage = new FindPage();
